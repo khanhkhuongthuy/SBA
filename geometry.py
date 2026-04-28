@@ -12,6 +12,10 @@ def square_area(side):
     """Calculates the area of a square."""
     return side ** 2
 
+def circle_area(raddius):
+    """Calculates the area of a circle"""
+    return math.pi*(radius**2)
+
 # 1. Seviye: Ana çalışma bloğu
 if __name__ == "__main__":
     # 2. Seviye: Bu bloğun altındakiler de içeride olmalı!
